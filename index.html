@@ -5,7 +5,7 @@
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Stanford University CS422: Interactive and Embodied Learning</title>
+  <title>Stanford University EDUC234/PSYCH240A: Curiosity in Artificial Intelligence</title>
 
   <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -24,18 +24,17 @@
     <img src="images/stanfordlogo.jpg" style="height:50px; float: right; margin-right: 20px;"><br>
   </a>
   <br>
- <h1>CS422: Interactive and Embodied Learning</h1>
+ <h1>EDUC234/PSYCH240A: Curiosity in Artificial Intelligence</h1>
   <div class='text-center'>
     <h3>Winter 2022</h3>
   </div>
   <div class='text-center'>
-    <h3>Instructors: Nick Haber & Fei-Fei Li
+    <h3>Instructor: Nick Haber
     </h3>
   <div class='text-center'>
-    <h3>Meeting times: Mo, We 1:30 - 3p
+    <h3>Meeting times: Mo, We 9:45 - 11:05a
     </h3>
-    <h3>Location: CERAS 513</h3>
-    <h3>Note: first two weeks all-online, zoom details provided on <a href="https://canvas.stanford.edu/courses/149726" target="_blank" rel="noopener noreferrer">Canvas</a>.</h3>
+    <h3>Location: STLC 115</h3>
   </div>
 
 
@@ -44,7 +43,7 @@
 </div>
 
 <div id="teaser">
-	<img src="images/igibson_sample.png" alt="Image of AI agents learning interactively" style="width:60%;"
+	<img src="images/curiosity_rover.jpeg" alt="Image of curiosity rover" style="width:60%;"
 	 class = "center">
 
 </div>
@@ -54,22 +53,21 @@
   <h2>Course Description</h2>
 
   <div id="coursedesc">
-<p>Most successful machine learning algorithms of today use either carefully curated, human-labeled datasets, or large amounts of experience aimed at achieving well-defined goals within specific environments. In contrast, people learn through their agency: they interact with their environments, exploring and building complex mental models of their world so as to be able to flexibly adapt to a wide variety of tasks. One crucial next direction in artificial intelligence is to create artificial agents that learn in this flexible and robust way. Class will be a seminar, with discussion. Students will read and take turns presenting current works, and they will produce a proposal of a feasible next research direction. Topics build upon reinforcement learning techniques and include intrinsic motivation, model-based RL, self-supervised representation learning, multi-agent RL, human-AI interaction, and emergent communication.</p>
+<p>How do we design artificial systems that learn as we do early in life -- as “scientists in the crib” who explore and experiment with our surroundings? How do we make AI "curious" so that it explores without explicit external feedback? Topics draw from cognitive science (intuitive physics and psychology, developmental differences), computational theory (active learning, optimal experiment design), and AI practice (self-supervised learning, deep reinforcement learning). Students present readings and complete both an introductory computational project (e.g. train a neural network on a self-supervised task) and a deeper-dive project in either cognitive science (e.g. design a novel human subject experiment) or AI (e.g. implement and test a curiosity variant in an RL environment).</p>
 
-<p>The primary goal of this course is to provide a survey of techniques related to agents learning rich models of their world through interaction. Readings and discussions are planned with an eye towards germinating new work, and the project component should serve as a way to get started. The course is suitable for students looking to dive into recent works (from e.g. NeurIPS, ICML, and ICLR). Students should walk away from the course understanding not only relevant state-of-the-art approaches, but also its limitations, gaps in our understanding, benchmarks waiting to be created, and useful methods waiting to be fruitfully combined. This is an exciting, rapidly-growing field with many opportunities to quickly get started!</p>
+<p>Each student should walk away having learned something about both the cognition and artificial intelligence work behind curiosity, with some experience training neural networks. This will be facilitated by readings and project work. In addition, each student will develop a more in-depth project motivated in the cognition and AI of curiosity but specialized in at least one of AI, cognitive science, or education & design. This is intended to deliver a research product useful for the students’ longer-term objectives (e.g. germination of an AI conference submission, study design, or white paper for further education research). Through readings, students will gain the ability to evaluate the merits of an AI paper. Is the idea sound? Is the metric useful? Can this be applied in useful contexts?
+</p>
 
-<p>As a seminar in which we continually update readings, this course is intended to be suitable for repeated enrollment. See the <a href="2021/index.html" target="_blank" rel="noopener noreferrer">2021 offering here</a>.</p>
   </div>
 </div>
 </div>
 
 <div class="container sec">
   <h2>Prerequisites</h2>
+This course is intended to attract a broad range of students interested curiosity-driven learning in both people and artificial systems.
   <ul>
-    <li><span class="spanh">Willing to read current AI literature (from e.g. NeurIPS, ICML, ICLR)</span><br>If not experienced in this, at least at a point where you're willing to learn this skill.</li>
-    <li><span class="spanh">Proficiency in Python, and ideally Tensorflow or PyTorch</span> <br> No assignments require this, but you will get a great deal more out of the course (and potentially make more compelling presentations and project) if you can e.g. look over a paper's github repo and play.</li>
-    <li><span class="spanh">Knowledge in linear algebra, calculus, and statistics (MATH 19, 41, or 51, CS 109, or equivalent)</span><br>Again, no assignments require this, but you will get a great deal more out of readings if you are comfortable with these concepts.</li>
-    <li><span class="spanh">CS 229, 231N, 234, or equivalent</span><br> Deep reinforcement learning will play a key role.</li>
+    <li><span class="spanh">Some prior experience coding is important, and prior experience working with data and machine learning is very useful.</li>
+    <li><span class="spanh">Willingness to dive into research papers in psychology, neuroscience, and artificial intelligence is critical. You need not be practiced at reading current AI research, but you should be at a point where you would like to learn.</li>
   </ul>
 </div>
 
@@ -79,37 +77,35 @@
     <div class="col-md-4">
       <h2>Class time</h2>
       Winter quarter, 2022<br>
-      Mo, We 1:30-3p
+      Mo, We 9:45-11:05a
     </div>
     <div class="col-md-4">
       <h2>Office hours</h2>
-      By appointment<br>
-      <a href="mailto:nhaber@stanford.edu">nhaber@stanford.edu</a>
+      TBD<br>
     </div>
     <div class="col-md-4">
       <h2>Forum, Zoom link, project submissions</h2>
-        Visit our <a href="https://canvas.stanford.edu/courses/149726" target="_blank" rel="noopener noreferrer">Canvas page.</a>
+        Visit our <a href="https://canvas.stanford.edu/courses/155002" target="_blank" rel="noopener noreferrer">Canvas page.</a>
     </div>
     <div class="col-md-4">
-      <h2>Readings</h2>
-      Coming soon.
-      See <a href="readings.html">last year's</a> page,<br>
-      but we will avoid repetition.<br>
+      <h2>Detailed syllabus with readings</h2>
+      See <a href="readings.html">here</a>.
     </div>
     <div class="col-md-4">
       <h2>Grading</h2>
-      Project 40%<br>
-      Presentations 30%<br>
-      Discussion participation 30%
+      Project 60% <br>
+      (5 scoping, 15 deeper dive, 20 update, 20 final)<br>
+      Presentations 20%<br>
+      Discussion participation 20%
     </div>
     <div class="col-md-4">
       <h2>Resources</h2>
-    <a href="talk_faq.html">Hints/expectations</a> for giving presentations.<br>
-    <a href="projects.html">Project timeline</a>.<br>
-    Have a look at some helpful <a href="resources.html">resources</a><br>
+<!--     <a href="talk_faq.html">Hints/expectations</a> for giving presentations.<br>
+ -->    <a href="projects.html">Project timeline</a>.<br>
+<!--     Have a look at some helpful <a href="resources.html">resources</a><br>
     for relevant blog posts,<br> environments, and codebases.<br>
     This will grow throughout the quarter<br> as we find new ones!
-    </div>
+ -->    </div>
   </div>
 </div>
 </div>
@@ -118,59 +114,22 @@
   <h2>Student responsibilities</h2>
 
   <div id="studentresp">
-<p>Students will read required papers for each class, and students/groups of students (depending on enrollment) will take turns presenting. Note: each class has a required paper as well as a number of supplementary papers. The supplementary lists can get quite long -- this is not meant to be imposing! We simply think that each represents a handy constellation of papers for those interested in getting more acquainted with each subarea. We will try to provide a roadmap as we go, and feel free to ask for more context!</p>
 
-<p>Students will produce a 6 page research proposal exploring a feasible next direction in depth, or some working demonstration of an idea. These will be “peer reviewed” by fellow students. For details, see our <a href="projects.html">project timeline</a>.</p>
-</div>
-</div>
+<h3>Readings and presentations</h3>
+<p>Students will be responsible for readings covered in discussions (the primary ones; secondary are just there to be helpful), and we will take turns leading these discussions through presentations by assigned groups. Participation during discussions is a critical part of the class! Please see the <a href="readings.html">detailed syllabus and readings</a> for further details.</p>
 
-<div class="sechighlight">
-<div class="container sec">
-  <h2>Schedule and readings</h2>
+<h3>Project</h3>
 
-<p>Papers subject to change! We are very open to alternative suggestions.</p>
-  <p>Supplementary reading forthcoming. To get an idea, please see <a href="2021/readings.html">last year's readings</a>. We will avoid repetition of required papers and add several new ones, and this year will feature 1-2 guest speakers.
+<p>The course project is intended to support diverse backgrounds and interests and can range widely. Many particulars are up to you, and we will help to find an appropriate topic and scope of work. Students can work solo or in groups (and we can help facilitate groups!). It consists of two main objectives.</p>
 
-
-<h3>Framing and basic computational considerations</h3>
-<h5>Conceptual framing, early attempts: world models, intrinsic motivation, behavior and performance metrics</h5> 
   <ul>
-    <li>Class 1: Framing and basic computational considerations.</li>
-    <li>Class 2: <a href="http://www.pyoudeyer.com/ims.pdf" target="_blank" rel="noopener noreferrer">Intrinsic Motivation Systems for Autonomous Mental Development</a></li>
+    <li><span class="spanh">The primary goal of this is to support the cultivation of your interests in a way that is hopefully useful to you in the future (by directly developing a longer-term project of yours, or by helping you develop a skill...). As such, the main objective can be very broad, so long as it relates to the overall course content: developmentally-inspired AI, artificial systems that learn through interaction, the developmental psychology of curiosity, active (machine) learning, the study of how humans learn through interaction, etc.</li>
+    <li><span class="spanh">The project can be primarily computational or non-computational in nature, but it must have a computational component. This, again, should relate in some way to course content, but it is intended to meet you where you are. As such, it can relate to some of the end-goals for course content (e.g. playing with intrinsically-motivated reinforcement learning) but it can also help you build up your background in machine learning & statistical analysis more broadly. This can relate, but need not relate, to your overall project objective.</li>
   </ul>
-<h3>Learning about embodiment and environment through interaction</h3>
-  <h5>Model-based reinforcement learning, skill learning, exploration, and their combination.</h5>
-    <ul>
-      <li>Class 3: <a href="https://arxiv.org/abs/1808.04355" target="_blank" rel="noopener noreferrer">Large-Scale Study of Curiosity-Driven Learning</a></li>
-      <li>Class 4: <a href="https://arxiv.org/abs/1911.08265" target="_blank" rel="noopener noreferrer">Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model</a></li>
-      <li>Class 5: <b>Initial project pitch</b></li>
-      <li>Class 6: Context on curiosity, model-based RL, skills.</li>
-      <li>Class 7: <a href="https://arxiv.org/abs/2011.03506" target="_blank" rel="noopener noreferrer">The Value Equivalence Principle for Model-Based Reinforcement Learning</a>
-        Alternatives: <a href="https://arxiv.org/abs/1903.00374" target="_blank" rel="noopener noreferrer">SimPLe</a>, <a href="https://arxiv.org/abs/1705.06366" target="_blank" rel="noopener noreferrer">Goal GAN</a>
-      </li>
-      <li>Class 8: <a href="https://arxiv.org/abs/1802.06070" target="_blank" rel="noopener noreferrer">Diversity is All You Need: Learning Skills without a Reward Function</a></li>
-    </ul>
-<h3>Learning about other agents through interaction
-</h3>
-<h5>Self-supervised prediction of other agents, theory of mind, multi-agent RL methods in cooperative and competitive scenarios, emergent communication, human-AI interaction.</h5>
-<ul>
-      <li>Class 9: Introductory lecture.</li>
-      <li>Class 10: <a href="https://arxiv.org/abs/2002.01093" target="_blank" rel="noopener noreferrer">On the interaction between supervision and self-play in emergent communication</a></li>
-      <li>Class 11: <a href="https://arxiv.org/abs/1709.04326" target="_blank" rel="noopener noreferrer">Learning with Opponent-Learning Awareness</a></li>
-      <li>Class 12: Guest speakers: Minae Kwon and Andy Shih</li>
-      <li>Class 13: End-of-unit-discussion. Supplementary: <a href="https://arxiv.org/abs/2007.07853" target="_blank" rel="noopener noreferrer">Active World Model Learning with Progress Curiosity</a></li>
-  </ul>
-<h3>Future of benchmarking</h3>
-<ul>
-      <li>Class 14: <a href="https://arxiv.org/abs/2108.03332" target="_blank" rel="noopener noreferrer">BEHAVIOR: Benchmark for Everyday Household Activities in Virtual, Interactive, and Ecological Environments</a></li>
-      <li>Class 15: <a href="https://arxiv.org/abs/2107.08170" target="_blank" rel="noopener noreferrer">Megaverse: Simulating Embodied Agents at One Million Experiences per Second</a></li>
-</ul>
-<h3>Wrap-up</h3>
-<ul>
-      <li>Class 16: Wrap-up discussion</li>
-      <li>Class 17: <b>Project poster session</b> (may extend into finals period if we need time)</li>
-      <li>Class 18: Guest speaker: Danijar Hafner
-</ul>
+
+<p>Please see <a href="projects.html">here</a> for a detailed project milestone timeline and example project ideas.</p>
+
+
 </div>
 </div>
 

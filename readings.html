@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stanford University EDUC234/PSYCH240A: Curiosity in Artificial Intelligence</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+  <!-- Google fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+ </head>
+
+ <div id="header">
+  <div class='text-right'><h2><a href="index.html" style="color: black; text-decoration: none;">Stanford University EDUC234/PSYCH240A</a></h2>
+</div>
+
+<div class="container sec">
+<h1>Syllabus and readings</h1>
+<p>Timing and readings are subject to change. In particular, for student readings, students are welcome to look at supplementary readings, and related work more broadly, and suggest alternatives -- though this must be done at least a week in advance, and we reserve the right to insist on the assigned paper! Primary readings (<b>bolded</b>) are required, but supplementary are not.</p>
+</div>
+
+<div class="sechighlight">
+<div class="container sec">
+<h3>Background</h3>
+<p>In this first section, we aim to provide a brief background in human development and artificial intelligence that will get us towards the study of sophisticated interactive learning and curiosity in artificial systems.<p>
+
+<h5>Introduction, developmental picture, and world modeling</h5>
+  <ul>
+    <li>March 28: Overall introduction, course goals, logistics.</li>
+    <li>March 30: Extended introduction and developmental overview. What do children learn early in life? How do we do so? Intuitive physics and psychology, early learning behaviors. What would it mean to engineer this sort of learning in artificial systems?<br>
+      Reading: <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2017.02124/full" target="_blank" rel="noopener noreferrer"><b>A developmental approach to machine learning.</b></a><br>
+      Supplemental: <a href="https://psycnet.apa.org/record/2017-42390-001" target="_blank" rel="noopener noreferrer">From needs to goals and representations: Foundations for a unified theory of motivation, personality, and development.</a></li>
+    <li>April 4: Self-supervised learning and world models. How might we build artificial systems that can learn from their experience, as opposed to carefully-curated datasets?<br>
+      Reading: <a href="https://towardsdatascience.com/self-supervised-learning-methods-for-computer-vision-c25ec10a91bd" target="_blank" rel="noopener noreferrer"><b>Self-Supervised Learning Methods for Computer Vision.</b></a><br>
+      Supplemental: <a href="https://towardsai.net/p/l/self-supervised-learning" target="_blank" rel="noopener noreferrer">Self-supervised learning,</a> <a href="https://worldmodels.github.io/" target="_blank" rel="noopener noreferrer">World Models (feel free to read cited papers, but chiefly the blog posts).</a></li>
+  </ul>
+
+<h5>Agency</h5>
+  <ul>
+    <li>April 6: Introduction to reinforcement learning, part 1. Key successes of the past decade, the theoretical framework, a brief overview of basic methods.<br>
+      Reading: <a href="https://towardsdatascience.com/reinforcement-learning-an-introduction-to-the-concepts-applications-and-code-ced6fbfd882d"><b>Reinforcement Learning (blog post).</b></a><br>
+      Supplemental: <a href="https://arxiv.org/abs/1312.5602" target="_blank" rel="noopener noreferrer">Playing Atari with Deep Reinforcement Learning,</a> <a href="https://arxiv.org/abs/1509.02971" target="_blank" rel="noopener noreferrer">Continuous Control with Deep Reinforcement Learning,</a> <a href="http://www.incompleteideas.net/book/RLbook2020.pdf" target="_blank" rel="noopener noreferrer">Reinforcement Learning (book).</a>
+    </li>
+    <li>April 11: Introduction to reinforcemeent learning, part 2. Benchmarks of the past decade. Current challenges.
+      Reading: <a href="https://neptune.ai/blog/best-benchmarks-for-reinforcement-learning" target="_blank" rel="noopener noreferrer"><b>Best Benchmarks for Reinforcement Learning: The Ultimate List.</b></a><br>
+      Supplemental: <a href="https://arxiv.org/abs/1709.06560" target="_blank" rel="noopener noreferrer">Deep reinforcement learning that matters,</a> <a href="https://www.pnas.org/doi/10.1073/pnas.1611835114" target="_blank" rel="noopener noreferrer">Overcoming catastrophic forgetting in neural networks.</a>
+    </li>
+    <li>April 13: Introduction to interactive learning. Classical active learning and optimal experiment design, a framework for interactive learning.
+      Reading: <a href="https://burrsettles.com/pub/settles.activelearning.pdf" target="_blank" rel="noopener noreferrer"><b>Active Learning (just section 1).</b></a><br>
+      Supplemental: <a href="https://arxiv.org/abs/1807.02811" target="_blank" rel="noopener noreferrer">A Tutorial on Bayesian Optimization.</a>
+    </li>
+  </ul>
+
+<h3>A deeper dive, part 1: world models</h3>
+  <ul>
+    <li>April 18, <b>student presentation 1</b>: physical woirld model in humans.
+      Reading: <a href="https://www.pnas.org/doi/abs/10.1073/pnas.1306572110" target="_blank" rel="noopener noreferrer"><b>Simulation as an engine of physical scene understanding.</b></a><br>
+      Supplemental: <a href="https://arxiv.org/abs/2106.08261" target="_blank" rel="noopener noreferrer">Physion: Evaluating Physical Prediction from Vision in Humans and Machines,</a> <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/j.1467-7687.2007.00569.x" target="_blank" rel="noopener noreferrer">Core knowledge.</a>
+    </li>
+    <li>April 20, <b>student presentation 2</b>: physical world models in AI.
+      Reading: <a href="https://arxiv.org/abs/1612.00222"><b>Interaction Networks for Learning about Objects, Relations and Physics.</b></a><br>
+      Supplemental: <a href="https://arxiv.org/pdf/1911.01655.pdf" target="_blank" rel="noopener noreferrer">High Fidelity Video Prediction with Large Stochastic Recurrent Neural Networks,</a> <a href="https://arxiv.org/abs/2002.09405" target="_blank" rel="noopener noreferrer">Learning to Simulate Complex Physics with Graph Networks</a>
+    </li>
+    <li>April 25, <b>student presentation 3</b>: social world models in humans.
+      Reading: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3908452/"><b>Action experience alters 3-month-old infants’ perception of others’ actions.</b></a><br>
+      Supplemental: <a href="https://web.archive.org/web/20170928145836/http://ruccs.rutgers.edu/images/personal-alan-leslie/publications/Baron-Cohen%20Leslie%20%26%20Frith%201985.pdf" target="_blank" rel="noopener noreferrer">Does the autistic child have a “theory of mind”?,</a> <a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2019.02905/full" target="_blank" rel="noopener noreferrer">Systematic Review and Inventory of Theory of Mind Measures for Young Children.</a>
+    </li>
+    <li>April 27, <b>student presentation 4</b>: social world models in AI.
+      Reading: <a href="https://arxiv.org/abs/1802.07740"><b>Machine Theory of Mind.</b></a><br>
+      Supplemental: <a href="https://www.tshu.io/" target="_blank" rel="noopener noreferrer">Tianmin Shu's benchmark papers.</a>
+    </li>
+  </ul>
+<h3>Curiosity and interactive learning in AI</h3>
+  <ul>
+    <li>May 2: Curiosity in AI, part 1. Early results, basic metrics, challenges.
+      Reading: <a href="http://www.pyoudeyer.com/ims.pdf"><b>Intrinsic Motivation Systems for Autonomous Mental Development.</b></a><br>
+      Supplemental: <a href="https://people.idsia.ch/~juergen/ieeecreative.pdf" target="_blank" rel="noopener noreferrer">Formal Theory of Creativity, Fun, and Intrinsic Motivation (1990-2010).</a>
+    </li>
+    <li>May 4: Curiosity in AI, part 2. Physical and social examples.
+      Reading: <a href="https://arxiv.org/abs/1802.07442"><b>Learning to Play with Intrinsically-Motivated Self-Aware Agents,</b></a> <a href="https://arxiv.org/abs/2007.07853"><b>Active World Model Learning with Progress Curiosity</b></a><br>
+    </li>
+  </ul>
+
+<h3>A deeper dive, part 2: Curiosity</h3>
+  <ul>
+    <li>May 9, <b>student presentation 5</b>: curiosity in humans.
+      Reading: <a href="https://www.sciencedirect.com/science/article/pii/S1364661313002052"><b>Information-seeking, curiosity, and attention: computational and neural mechanisms.</b></a><br>
+      Supplemental: <a href="https://onlinelibrary.wiley.com/doi/10.1111/tops.12196" target="_blank" rel="noopener noreferrer">How Evolution May Work Through Curiosity-Driven Developmental Process,</a> <a href="https://www.cs.utexas.edu/~kuipers/readings/Baillargeon-cdps-94.pdf" target="_blank" rel="noopener noreferrer">How Do Infants Learn About the Physical World?</a>
+    </li>
+    <li>May 11, project update discussions.
+    </li>
+    <li>May 16, <b>student presentation 6</b>: physical curiosity in AI.
+      Reading: <a href="https://arxiv.org/abs/1705.05363"><b>Curiosity-driven Exploration by Self-supervised Prediction.</b></a><br>
+      Supplemental: <a href="https://arxiv.org/abs/1703.01732" target="_blank" rel="noopener noreferrer">Surprise-Based Intrinsic Motivation for Deep Reinforcement Learning,</a> <a href="https://arxiv.org/abs/1808.04355" target="_blank" rel="noopener noreferrer">Large-Scale Study of Curiosity-Driven Learning,</a> <a href="https://arxiv.org/abs/1810.12894" target="_blank" rel="noopener noreferrer">Exploration by Random Network Distillation,</a> <a href="https://arxiv.org/abs/2005.05960" target="_blank" rel="noopener noreferrer">Planning to Explore via Self-Supervised World Models.</a> 
+    </li>
+    <li>May 18, <b>student presentation 7</b>: social curiosity in AI.
+      Reading: <a href="https://arxiv.org/abs/1810.08647"><b>Social Influence as Intrinsic Motivation for Multi-Agent Deep Reinforcement Learning.</b></a><br>
+    </li>
+    <li>May 23, <b>student presentation 8</b>: human curiosity beyond development.
+      Reading: <a href="https://link.springer.com/article/10.3758/s13423-018-1470-5"><b>Asking the right questions about the psychology of human inquiry: Nine open challenges.</b></a><br>
+      Supplemental: <a href="https://www.nature.com/articles/s41562-020-00985-7" target="_blank" rel="noopener noreferrer">Hunters, busybodies and the knowledge network building associated with deprivation curiosity,</a>
+    </li>
+  </ul>
+
+<h3>Wrap-up</h3>
+  <ul>
+    <li> May 25: summary discussion.
+    </li>
+    <li> June 1: poster session.
+    </li>
+  </ul>
